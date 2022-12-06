@@ -7,8 +7,11 @@
 body {
   font-family: 'Bebas Neue', cursive;
   padding-top: 42rem;
-  background-color: #9fc4c5;
-  color: #464646; }
+  background-color: #9fc4c5; }
+
+.container, #sobreMi, #proyectos {
+  padding: 0 5rem;
+  width: 100%; }
 
 header {
   background-color: #456B82;
@@ -60,9 +63,8 @@ main .banner {
     position: relative;
     top: 8rem; }
 
-main .container {
-  padding: 0 5rem;
-  width: 100%; }
+.subtitulos {
+  margin-left: 2rem; }
 
 #sobreMi {
   display: flex;
@@ -71,10 +73,45 @@ main .container {
   flex-direction: column;
   row-gap: 2rem;
   column-gap: 0;
-  margin-bottom: 5rem; }
+  height: 100vh;
+  color: #2c2c2c;
+  margin-bottom: 15rem; }
   #sobreMi p {
     text-align: center;
     width: 50%; }
   #sobreMi .listasEstudios {
     display: flex;
     column-gap: 15rem; }
+
+#proyectos {
+  min-height: 100vh;
+  color: #2c2c2c;
+  background-color: beige;
+  padding-top: 5rem;
+  padding-bottom: 15rem; }
+  #proyectos h3 {
+    margin: 3rem 0 2rem 5rem; }
+  #proyectos p {
+    margin-left: 4.5rem; }
+  #proyectos .pantallas {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem; }
+    #proyectos .pantallas div {
+      display: flex;
+      flex-direction: column; }
+      #proyectos .pantallas div .mobile {
+        height: 20rem;
+        width: 11rem; }
+      #proyectos .pantallas div .tablet {
+        height: 20rem;
+        width: 14rem; }
+      #proyectos .pantallas div .pc {
+        height: 15rem;
+        width: 24rem; }
+      #proyectos .pantallas div .verMas {
+        margin-top: 2rem;
+        margin-left: 7rem; }
+        #proyectos .pantallas div .verMas a {
+          text-decoration: none; }

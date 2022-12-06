@@ -1,12 +1,16 @@
 #sobreMi {
+    @extend .container;
     @include FlexCenter(column, 2rem, 0);
+    height: 100vh;
+    color: $colorTexto;
+    margin-bottom: 15rem;
     p {
         text-align: center;
         width: 50%;
     }
-    .listasEstudios{
+
+    .listasEstudios {
         display: flex;
         column-gap: 15rem;
     }
-    margin-bottom: 5rem;
 }
