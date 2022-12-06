@@ -1,0 +1,16 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+@import "utilities/variables";
+@import "utilities/mixin";
+
+
+
+@import "header";
+@import "perfil";

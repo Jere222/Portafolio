@@ -1,0 +1,23 @@
+header {
+    background-color: $colorNav;
+    @include FlexCenter(row, 0, 0);
+    height: 3.5rem;
+    nav {
+        position: relative;
+        top: 0.5rem;
+        ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            li {
+                
+                a {
+                    text-decoration: none;
+                    color: $colorText;
+                    text-shadow: 1px 1px 1px rgb(82, 76, 76);
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

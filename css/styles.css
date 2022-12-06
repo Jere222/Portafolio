@@ -1,0 +1,42 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Bebas Neue', cursive; }
+
+header {
+  background-color: #456B82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  row-gap: 0;
+  column-gap: 0;
+  height: 3.5rem; }
+  header nav {
+    position: relative;
+    top: 0.5rem; }
+    header nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #B5D3C4;
+        text-shadow: 1px 1px 1px #524c4c;
+        font-size: 2rem; }
+
+main .marcoIcono {
+  height: 15rem;
+  width: 15rem;
+  background-color: #F2F2F2;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  row-gap: 0;
+  column-gap: 0; }
