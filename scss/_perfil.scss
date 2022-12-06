@@ -1,9 +1,0 @@
-main {
-    .marcoIcono {
-        height: 15rem;
-        width: 15rem;
-        background-color: #F2F2F2;
-        border-radius: 200px;
-        @include FlexCenter(row, 0, 0);
-    }
-}

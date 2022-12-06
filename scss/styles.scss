@@ -6,6 +6,9 @@
 }
 body {
     font-family: 'Bebas Neue', cursive;
+    padding-top: 42rem;
+    background-color: #9fc4c5;
+    color: rgb(70, 70, 70);
 }
 @import "utilities/variables";
 @import "utilities/mixin";
@@ -13,4 +16,5 @@ body {
 
 
 @import "header";
-@import "perfil";
+@import "main";
+@import "sobreMi";

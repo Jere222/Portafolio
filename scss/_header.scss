@@ -2,6 +2,9 @@ header {
     background-color: $colorNav;
     @include FlexCenter(row, 0, 0);
     height: 3.5rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
     nav {
         position: relative;
         top: 0.5rem;

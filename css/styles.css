@@ -5,7 +5,10 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Bebas Neue', cursive; }
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 42rem;
+  background-color: #9fc4c5;
+  color: #464646; }
 
 header {
   background-color: #456B82;
@@ -15,7 +18,10 @@ header {
   flex-direction: row;
   row-gap: 0;
   column-gap: 0;
-  height: 3.5rem; }
+  height: 3.5rem;
+  position: absolute;
+  top: 0;
+  width: 100%; }
   header nav {
     position: relative;
     top: 0.5rem; }
@@ -29,14 +35,46 @@ header {
         text-shadow: 1px 1px 1px #524c4c;
         font-size: 2rem; }
 
-main .marcoIcono {
-  height: 15rem;
-  width: 15rem;
-  background-color: #F2F2F2;
-  border-radius: 200px;
+main .banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3.5rem;
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  main .banner .marcoIcono {
+    height: 15rem;
+    width: 15rem;
+    background-color: #F2F2F2;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 0;
+    column-gap: 0;
+    position: relative;
+    top: 8rem; }
+
+main .container {
+  padding: 0 5rem;
+  width: 100%; }
+
+#sobreMi {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  row-gap: 0;
-  column-gap: 0; }
+  flex-direction: column;
+  row-gap: 2rem;
+  column-gap: 0;
+  margin-bottom: 5rem; }
+  #sobreMi p {
+    text-align: center;
+    width: 50%; }
+  #sobreMi .listasEstudios {
+    display: flex;
+    column-gap: 15rem; }

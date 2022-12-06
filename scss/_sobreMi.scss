@@ -1,0 +1,12 @@
+#sobreMi {
+    @include FlexCenter(column, 2rem, 0);
+    p {
+        text-align: center;
+        width: 50%;
+    }
+    .listasEstudios{
+        display: flex;
+        column-gap: 15rem;
+    }
+    margin-bottom: 5rem;
+}
