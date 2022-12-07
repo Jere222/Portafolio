@@ -66,6 +66,13 @@ main .banner {
 .subtitulos {
   margin-left: 2rem; }
 
+.volver {
+  margin-top: 5rem;
+  padding-right: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: right; }
+
 #sobreMi {
   display: flex;
   justify-content: center;
@@ -87,7 +94,7 @@ main .banner {
   min-height: 100vh;
   color: #2c2c2c;
   background-color: beige;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 15rem; }
   #proyectos h3 {
     margin: 3rem 0 2rem 5rem; }
@@ -110,8 +117,11 @@ main .banner {
       #proyectos .pantallas div .pc {
         height: 15rem;
         width: 24rem; }
-      #proyectos .pantallas div .verMas {
-        margin-top: 2rem;
-        margin-left: 7rem; }
-        #proyectos .pantallas div .verMas a {
-          text-decoration: none; }
+      #proyectos .pantallas div .botones {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 2rem; }
