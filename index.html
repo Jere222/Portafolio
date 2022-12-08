@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Descripcion, Tags e icono-->
-    <meta name="description" content="Esta es la página de presentación o portafolio de un desarrollador novato que esta buscando hacerse un nombre en el mercado de la creación de las páginas web">
-    <meta name="keyboards" content="desarrollador diseñador estudiante html css bootstrap trabajo portafolio desarrollo web JB Jeremias Bracamonte">
+    <meta name="description"
+        content="Esta es la página de presentación o portafolio de un desarrollador novato que esta buscando hacerse un nombre en el mercado de la creación de las páginas web">
+    <meta name="keyboards"
+        content="desarrollador diseñador estudiante html css bootstrap trabajo portafolio desarrollo web JB Jeremias Bracamonte">
     <link rel="icon" type="image/png" href="img/Icono_JB.png" sizes="64x64">
     <!--Link de BT-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--Link de la Tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,13 +23,14 @@
 
     <title>Portafolio - Desarrollo Web JB</title>
 </head>
+
 <body>
     <header id="menu">
         <nav>
             <ul>
                 <li><a href="#sobreMi">Sobre mi</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#mails">Mails</a></li>
+                <li><a href="#emails">Emails</a></li>
                 <li><a href="#misRedes">Mis redes</a></li>
             </ul>
         </nav>
@@ -34,69 +39,92 @@
         <div class="banner">
             <div class="marcoIcono"><img src="img/Icono_JB.png" alt="Logo: JB desarrollo web"></div>
         </div>
-        
-            <section id="sobreMi">
-                <p>Soy un ex-estudiante de ingenieria en sistemas en la UTN que esta buscando un nuevo camino por el lado del desarrollo web. En este momento puedo manejar muy bien tecnologias como HTML5, CSS3, Bootstrap, SASS, GIT Y GITHUB; puedo construir sitios web para todo tipo de pantallas como smartphones, tablets y computadoras; ademas tambien tengo conocimientos de maquetado de mails</p>
-                <div class="listasEstudios">
-                    <div>
-                        <h2>Materias Aprobadas</h2>
-                        <ul>
-                            <li>Algoritmos y estructura de Datos(2019)</li>
-                            <li>Sistemas y organizaciones(2019)</li>
-                            <li>Analisis Matematico(2019)</li>
-                            <li>Ingenieria y sociedad(2019)</li>
-                            <li>Sintaxis y semantica de los lenguajes(2021)</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2>Cursos realizados</h2>
-                        <li>Introducción al desarrollo web - Google Active</li>
-                        <li>Desarrollo web - CoderHouse</li>
+
+        <section id="sobreMi">
+            <p>Soy un ex-estudiante de ingenieria en sistemas en la UTN que esta buscando un nuevo camino por el lado
+                del desarrollo web. En este momento puedo manejar muy bien tecnologias como HTML5, CSS3, Bootstrap,
+                SASS, GIT Y GITHUB; puedo construir sitios web para todo tipo de pantallas como smartphones, tablets y
+                computadoras; ademas tambien tengo conocimientos de maquetado de mails</p>
+            <div class="listasEstudios">
+                <div>
+                    <h2>Materias Aprobadas</h2>
+                    <ul>
+                        <li>Algoritmos y estructura de Datos(2019)</li>
+                        <li>Sistemas y organizaciones(2019)</li>
+                        <li>Analisis Matematico(2019)</li>
+                        <li>Ingenieria y sociedad(2019)</li>
+                        <li>Sintaxis y semantica de los lenguajes(2021)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Cursos realizados</h2>
+                    <li>Introducción al desarrollo web - Google Active</li>
+                    <li>Desarrollo web - CoderHouse</li>
+                </div>
+            </div>
+            <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
+                        disabled>Volver</button></a></div>
+        </section>
+        <section id="proyectos">
+            <h2 class="subtitulos">Mis Proyectos</h2>
+            <h3 class="subtitulosH3">JaquelinaViajes - agencia de turismo</h3>
+            <p class="parrafoPresentasion">Hasta el momento el unico sitio que realize es una web ficticia para una
+                empresa real de venta de servicios relacionados con el turismo de la cual me siento bastante orgulloso,
+                aqui se las muestro:</p>
+            <div class="pantallas">
+                <div>
+                    <h4>Vista Mobile</h4>
+                    <img class="mobile" src="img/JaquelinaViajes-mobile.jpg" alt="">
+                </div>
+                <div>
+                    <h4>Vista Tablet</h4>
+                    <img class="tablet" src="img/JaquelinaViajes-Tablet.jpg" alt="">
+                </div>
+
+                <div>
+                    <h4>Vista Desktop</h4>
+                    <img class="pc" src="img/JaquelinaViajes-PC.jpg" alt="">
+                    <div class="botones">
+                        <button type="button" class="btn btn-primary" disabled>Link a la pagina --></button>
+                        <a href="https://jere222.github.io/PreEntrega3Bracamonte/" target="_blank"><button type="button"
+                                class="btn btn-outline-dark verMas">Ver más</button></a>
                     </div>
                 </div>
-                <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary" disabled>Volver</button></a></div>
-            </section>
-            <section id="proyectos">
-                <h2 class="subtitulos">Mis Proyectos</h2>
-                <h3>JaquelinaViajes - agencia de turismo</h3>
-                <p>Hasta el momento el unico sitio que realize es una web ficticia de venta de servicios relacionados con el turismo de la cual me siento bastante orgulloso, aqui se las muestro:</p>
-                <div class="pantallas">
-                    <div>
-                        <h4>Vista Mobile</h4>
-                        <img class="mobile" src="img/JaquelinaViajes-mobile.jpg" alt="">
-                    </div>
-                    <div>
-                        <h4>Vista Tablet</h4>
-                        <img class="tablet" src="img/JaquelinaViajes-Tablet.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h4>Vista Desktop</h4>
-                        <img class="pc" src="img/JaquelinaViajes-PC.jpg" alt="">
-                        <div class="botones">
-                            <button type="button" class="btn btn-primary" disabled>Link a la pagina --></button>
-                            <a href="https://jere222.github.io/PreEntrega3Bracamonte/" target="_blank"><button type="button" class="btn btn-outline-dark verMas">Ver más</button></a>
-                        </div>
-                    </div>
-                </div> 
-                <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary" disabled>Volver</button></a></div>
-            </section>
-            <section id="mails">
-                
-            </section>
-            <section id="misRedes">
-                <h1>Jeremias Bracamonte / JB desarrollo web</h1>
-                <p>Muchas gracias por ver mi pagina, espero que les haya gustado.<br>Estoy ansioso de poder trabajar con ustedes si es que lo desean, para mis 3 primeros clientes habrá un descuento del 50%.<br>¿Que estan esperando? </p>
-                <div class="imgRedes">
-                    <img src="img/mail.png" alt="">
-                    <img src="img/GitHub-logo.png" alt="">
-                    <img src="img/linkedin-logo.png" alt="">
-                </div>
-                <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary" disabled>Volver</button></a></div>
-            </section>
+            </div>
+            <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
+                        disabled>Volver</button></a></div>
+        </section>
+        <section id="emails">
+
+            <h2 class="subtitulos">Maquetados de Emails</h2>
+            <h3 class="subtitulosH3">Promocion Norte Argentino, Cataratas del Iguazu y V.C.P. - JaquelinaViajes</h3>
+
+            <div class="parrafoImagen">
+                <p>De este tipo de diseños tambien solo realice uno el cual si fue usado
+                    para promocionar viajes con destino a Norte Argentino, Cataratas del iguazu y Carlos Paz. Esta en formato html totalmente funcional y como mi cliente no cuenta con sitio web para los viajes promocionados cada vez que alguien cliquea sobre la imagen del viaje te lleva a la pagina donde se esta hosteando la misma, donde la podras ver en un formato mas amplio y apreciar los detalles</p>
+
+                <img src="img/Mail.jpg" alt="Mail maquetado por JBdesarrolloweb">
+            </div>
+            <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
+                        disabled>Volver</button></a></div>
+        </section>
+        <section id="misRedes">
+            <h1>Jeremias Bracamonte / JB desarrollo web</h1>
+            <p>Muchas gracias por ver mi pagina, espero que les haya gustado.<br>Estoy ansioso de poder trabajar con
+                ustedes si es que lo desean, para mis 3 primeros clientes habrá un descuento del 50%.<br>¿Que estan
+                esperando? </p>
+            <div class="imgRedes">
+                <img src="img/mail.png" alt="">
+                <img src="img/GitHub-logo.png" alt="">
+                <img src="img/linkedin-logo.png" alt="">
+            </div>
+            <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
+                        disabled>Volver</button></a></div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>

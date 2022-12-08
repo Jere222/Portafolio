@@ -1,3 +1,15 @@
-#mail {
+#emails {
     @extend .container;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    background-color: $colorNav;
+    color: aliceblue;
+    .parrafoImagen {
+        @include FlexCenter(row-reverse, 0, 5rem);
+
+        p{
+            width: 40%;
+        }
+       
+    }
 }

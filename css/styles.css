@@ -9,7 +9,7 @@ body {
   padding-top: 42rem;
   background-color: #9fc4c5; }
 
-.container, #sobreMi, #proyectos, #mail, #misRedes {
+.container, #sobreMi, #proyectos, #emails, #misRedes {
   padding: 0 5rem;
   width: 100%;
   min-height: 100vh; }
@@ -68,6 +68,12 @@ main .banner {
 .subtitulos {
   margin-left: 2rem; }
 
+.subtitulosH3 {
+  margin: 3rem 0 2rem 5rem; }
+
+.parrafoPresentacion {
+  margin-left: 4.5rem; }
+
 .volver {
   margin-top: 5rem;
   padding-right: 8rem;
@@ -95,15 +101,10 @@ main .banner {
 
 /*proyectos*/
 #proyectos {
-  min-height: 100vh;
   color: #2c2c2c;
   background-color: beige;
   padding-top: 3rem;
   padding-bottom: 15rem; }
-  #proyectos h3 {
-    margin: 3rem 0 2rem 5rem; }
-  #proyectos p {
-    margin-left: 4.5rem; }
   #proyectos .pantallas {
     display: flex;
     column-gap: 2rem;
@@ -129,6 +130,21 @@ main .banner {
         flex-direction: row;
         row-gap: 0;
         column-gap: 2rem; }
+
+#emails {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+  background-color: #456B82;
+  color: aliceblue; }
+  #emails .parrafoImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    row-gap: 0;
+    column-gap: 5rem; }
+    #emails .parrafoImagen p {
+      width: 40%; }
 
 /*Mis Redes*/
 #misRedes {

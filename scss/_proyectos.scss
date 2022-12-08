@@ -1,27 +1,21 @@
 /*proyectos*/
 #proyectos {
-    min-height: 100vh;
     color: $colorTexto;
     background-color: beige;
     padding-top: 3rem;
     @extend .container;
     padding-bottom: 15rem;
-    h3 {
-        margin: 3rem 0 2rem 5rem;
-    }
-
-    p {
-        margin-left: 4.5rem;
-    }
 
     .pantallas {
         display: flex;
         column-gap: 2rem;
         justify-content: center;
         margin-top: 2rem;
+
         div {
             display: flex;
             flex-direction: column;
+
             .mobile {
                 height: 20rem;
                 width: 11rem;
@@ -35,9 +29,10 @@
             .pc {
                 height: 15rem;
                 width: 24rem;
-                
-                
+
+
             }
+
             .botones {
                 padding-top: 2rem;
                 @include FlexCenter(row, 0, 2rem);
