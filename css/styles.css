@@ -9,9 +9,10 @@ body {
   padding-top: 42rem;
   background-color: #9fc4c5; }
 
-.container, #sobreMi, #proyectos {
+.container, #sobreMi, #proyectos, #mail, #misRedes {
   padding: 0 5rem;
-  width: 100%; }
+  width: 100%;
+  min-height: 100vh; }
 
 header {
   background-color: #456B82;
@@ -38,6 +39,7 @@ header {
         text-shadow: 1px 1px 1px #524c4c;
         font-size: 2rem; }
 
+/*Main*/
 main .banner {
   background-image: url("../img/banner.jpg");
   background-size: cover;
@@ -73,6 +75,7 @@ main .banner {
   display: flex;
   justify-content: right; }
 
+/*Sobre Mi*/
 #sobreMi {
   display: flex;
   justify-content: center;
@@ -90,6 +93,7 @@ main .banner {
     display: flex;
     column-gap: 15rem; }
 
+/*proyectos*/
 #proyectos {
   min-height: 100vh;
   color: #2c2c2c;
@@ -125,3 +129,21 @@ main .banner {
         flex-direction: row;
         row-gap: 0;
         column-gap: 2rem; }
+
+/*Mis Redes*/
+#misRedes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3rem;
+  column-gap: 0;
+  background-color: #1d1d1d;
+  color: #d4d4d4;
+  text-align: center; }
+  #misRedes .imgRedes {
+    display: flex;
+    gap: 2.5rem; }
+    #misRedes .imgRedes img {
+      height: 4rem;
+      width: 4rem; }
