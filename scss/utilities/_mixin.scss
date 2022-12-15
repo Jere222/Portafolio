@@ -6,3 +6,7 @@
     row-gap: $r-gap;
     column-gap: $c-gap;
 }
+@mixin textoCentro {
+    margin-left: 0;
+    text-align: center;
+}

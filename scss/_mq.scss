@@ -1,0 +1,110 @@
+/*Mediaqueri Smartphone*/
+@media (max-width: 1200px) {
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .subtitulos {
+        @include textoCentro;
+    }
+
+    .subtitulosH3 {
+        @include textoCentro;
+    }
+
+    .volver {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+
+
+    /*Proyectos*/
+    #proyectos {
+        width: 100%;
+
+        .pantallas {
+            @include FlexCenter(column, 3rem, 0);
+
+            div {
+                h4 {
+                    position: relative;
+                    right: 3rem;
+                }
+            }
+
+            .desktop {
+                img {
+                    width: 20rem
+                }
+
+                h4 {
+                    position: relative;
+                    right: 0;
+                }
+            }
+        }
+
+        p {
+            @include textoCentro;
+        }
+    }
+
+    /*Email*/
+    #emails {
+        .parrafoImagen {
+            p {
+                overflow-y: scroll;
+                @include textoCentro;
+                height: 20rem;
+                width: 10rem;
+            }
+        }
+    }
+}
+
+/*Mediaqueri Smartphone*/
+@media (max-width: 800px) {
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /*Sobre Mi*/
+    #sobreMi {
+        padding-top: 2rem;
+        gap: 3.5rem;
+
+        p {
+            width: 100%;
+        }
+
+        .listasEstudios {
+            @include FlexCenter(column, 3.5rem, 0);
+
+            div {
+                h2 {
+                    @include textoCentro;
+                }
+            }
+        }
+    }
+
+}

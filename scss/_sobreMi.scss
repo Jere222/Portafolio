@@ -2,7 +2,6 @@
 #sobreMi {
     @extend .container;
     @include FlexCenter(column, 2rem, 0);
-    height: 100vh;
     color: $colorTexto;
     margin-bottom: 15rem;
     p {

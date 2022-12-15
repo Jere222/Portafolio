@@ -10,7 +10,7 @@ body {
   background-color: #9fc4c5; }
 
 .container, #sobreMi, #proyectos, #emails, #misRedes {
-  padding: 0 5rem;
+  padding: 2rem 5rem 0;
   width: 100%;
   min-height: 100vh; }
 
@@ -89,7 +89,6 @@ main .banner {
   flex-direction: column;
   row-gap: 2rem;
   column-gap: 0;
-  height: 100vh;
   color: #2c2c2c;
   margin-bottom: 15rem; }
   #sobreMi p {
@@ -99,7 +98,7 @@ main .banner {
     display: flex;
     column-gap: 15rem; }
 
-/*proyectos*/
+/*Proyectos*/
 #proyectos {
   color: #2c2c2c;
   background-color: beige;
@@ -108,8 +107,7 @@ main .banner {
   #proyectos .pantallas {
     display: flex;
     column-gap: 2rem;
-    justify-content: center;
-    margin-top: 2rem; }
+    justify-content: center; }
     #proyectos .pantallas div {
       display: flex;
       flex-direction: column; }
@@ -131,8 +129,8 @@ main .banner {
         row-gap: 0;
         column-gap: 2rem; }
 
+/*Email*/
 #emails {
-  padding-top: 3rem;
   padding-bottom: 10rem;
   background-color: #456B82;
   color: aliceblue; }
@@ -163,3 +161,66 @@ main .banner {
     #misRedes .imgRedes img {
       height: 4rem;
       width: 4rem; }
+
+/*Mediaqueri Smartphone*/
+@media (max-width: 1200px) {
+  header nav ul li a {
+    font-size: 1.5rem; }
+  .subtitulos {
+    margin-left: 0;
+    text-align: center; }
+  .subtitulosH3 {
+    margin-left: 0;
+    text-align: center; }
+  .volver {
+    padding-right: 0;
+    justify-content: center; }
+  /*Proyectos*/
+  #proyectos {
+    width: 100%; }
+    #proyectos .pantallas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 3rem;
+      column-gap: 0; }
+      #proyectos .pantallas div h4 {
+        position: relative;
+        right: 3rem; }
+      #proyectos .pantallas .desktop img {
+        width: 20rem; }
+      #proyectos .pantallas .desktop h4 {
+        position: relative;
+        right: 0; }
+    #proyectos p {
+      margin-left: 0;
+      text-align: center; }
+  /*Email*/
+  #emails .parrafoImagen p {
+    overflow-y: scroll;
+    margin-left: 0;
+    text-align: center;
+    height: 20rem;
+    width: 10rem; } }
+
+/*Mediaqueri Smartphone*/
+@media (max-width: 800px) {
+  header nav ul li a {
+    font-size: 1rem; }
+  /*Sobre Mi*/
+  #sobreMi {
+    padding-top: 2rem;
+    gap: 3.5rem; }
+    #sobreMi p {
+      width: 100%; }
+    #sobreMi .listasEstudios {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 3.5rem;
+      column-gap: 0; }
+      #sobreMi .listasEstudios div h2 {
+        margin-left: 0;
+        text-align: center; } }
