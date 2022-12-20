@@ -1,0 +1,16 @@
+/*Sobre Mi*/
+#sobreMi {
+    @extend .container;
+    @include FlexCenter(column, 2rem, 0);
+    color: $colorTexto;
+    
+    p {
+        text-align: center;
+        width: 50%;
+    }
+
+    .listasEstudios {
+        display: flex;
+        column-gap: 15rem;
+    }
+}

@@ -1,0 +1,24 @@
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 42rem;
+    background-color: #9fc4c5;
+}
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+
+
+
+@import "header";
+@import "main";
+@import "sobreMi";
+@import "proyectos";
+@import "mails";
+@import "misRedes";
+@import "mq";

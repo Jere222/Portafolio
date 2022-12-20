@@ -21,24 +21,27 @@
     <!--Link de mi css-->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Portafolio - Desarrollo Web JB</title>
+    <title>Portafolio - JB Desarrollo Web</title>
 </head>
 
 <body>
-    <header id="menu">
-        <nav>
-            <ul>
-                <li><a href="#sobreMi">Sobre mi</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#emails">Emails</a></li>
-                <li><a href="#misRedes">Mis redes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="banner">
-            <div class="marcoIcono"><img src="img/Icono_JB.png" alt="Logo: JB desarrollo web"></div>
-        </div>
+    <!--banner-->
+    <div class="inicio">
+        <header id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#sobreMi">Sobre mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#emails">Emails</a></li>
+                    <li><a href="#misRedes">Mis redes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="banner">
+                <div class="marcoIcono"><img src="img/Icono_JB.png" alt="Logo: JB desarrollo web"></div>
+            </div>
+    </div>
 
         <!--Sobre Mi-->
        
@@ -116,29 +119,32 @@
             <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
                         disabled>Volver</button></a></div>
         </section>
-
-       <!--Mis Redes-->
-
-        <section id="misRedes">
-            <div>
-                <h1>JB desarrollo web</h1>
-                <h2>Jeremias Bracamonte</h2>
-            </div>
-            <p>Muchas gracias por ver mi pagina, espero que les haya gustado.<br>Estoy ansioso de poder trabajar con
-                ustedes si es que lo desean, para mis 3 primeros clientes habrá un descuento del 50%.<br>¿Que estan
-                esperando? </p>
-            <div class="imgRedes">
-                <img src="img/mail.png" alt="">
-                <a href="https://github.com/Jere222" target="_blank"><img src="img/GitHub-logo.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/jeremias-bracamonte-285929259/" target="_blank"><img src="img/linkedin-logo.png" alt=""></a>
-            </div>
-            <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
-                        disabled>Volver</button></a></div>
-        </section>
     </main>
-    <footer>
+    <!--Mis Redes-->
 
-    </footer>
+    <footer id="misRedes">
+        <div>
+            <h1>JB Desarrollo Web</h1>
+            <h2>Jeremias Bracamonte</h2>
+        </div>
+        <p>Muchas gracias por ver mi pagina, espero que les haya gustado.<br>Estoy ansioso de poder trabajar con
+            ustedes si es que lo desean, para mis 3 primeros clientes habrá un descuento del 50%.<br>¿Que estan
+            esperando? </p>
+        <div class="imgRedes">
+            <div>
+                <div id="liveAlertPlaceholder" class="alertaEmail"></div>
+                <img id="liveAlertBtn" src="img/mail.png" alt="mail">
+            </div>
+            <a href="https://github.com/Jere222" target="_blank"><img src="img/GitHub-logo.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/jeremias-bracamonte-285929259/" target="_blank"><img src="img/linkedin-logo.png" alt="linkedin"></a>
+        </div>
+        <div class="volver"><a href="#menu"><button type="button" class="btn btn-secondary"
+                    disabled>Volver</button></a></div>
+        </footer>
+
+        <!--JS-->
+        <script src="email.js"></script>
 </body>
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>

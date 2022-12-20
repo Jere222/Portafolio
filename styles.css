@@ -1,0 +1,230 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 42rem;
+  background-color: #9fc4c5; }
+
+.container, #sobreMi, #proyectos, #emails, #misRedes {
+  padding: 2rem 5rem 10rem;
+  width: 100%;
+  min-height: 100vh; }
+
+.inicio {
+  min-height: 100vh; }
+  .inicio header {
+    background-color: #456B82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 0;
+    column-gap: 0;
+    height: 3.5rem;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .inicio header nav {
+      position: relative;
+      top: 0.5rem; }
+      .inicio header nav ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none; }
+        .inicio header nav ul li a {
+          text-decoration: none;
+          color: #B5D3C4;
+          text-shadow: 1px 1px 1px #524c4c;
+          font-size: 2rem; }
+
+/*Main*/
+.inicio main .banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3.5rem;
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .inicio main .banner .marcoIcono {
+    height: 15rem;
+    width: 15rem;
+    background-color: #F2F2F2;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 0;
+    column-gap: 0;
+    position: relative;
+    top: 8rem; }
+
+.subtitulos {
+  margin-left: 2rem; }
+
+.subtitulosH3 {
+  margin: 3rem 0 2rem 5rem; }
+
+.parrafoPresentacion {
+  margin-left: 4.5rem; }
+
+.volver {
+  margin-top: 5rem;
+  padding-right: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: right; }
+
+/*Sobre Mi*/
+#sobreMi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  column-gap: 0;
+  color: #2c2c2c; }
+  #sobreMi p {
+    text-align: center;
+    width: 50%; }
+  #sobreMi .listasEstudios {
+    display: flex;
+    column-gap: 15rem; }
+
+/*Proyectos*/
+#proyectos {
+  color: #2c2c2c;
+  background-color: beige;
+  padding-top: 3rem; }
+  #proyectos .pantallas {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center; }
+    #proyectos .pantallas div {
+      display: flex;
+      flex-direction: column; }
+      #proyectos .pantallas div .mobile {
+        height: 20rem;
+        width: 11rem; }
+      #proyectos .pantallas div .tablet {
+        height: 20rem;
+        width: 14rem; }
+      #proyectos .pantallas div .pc {
+        height: 15rem;
+        width: 24rem; }
+      #proyectos .pantallas div .botones {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 2rem; }
+
+/*Email*/
+#emails {
+  background-color: #456B82;
+  color: aliceblue; }
+  #emails .parrafoImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    row-gap: 0;
+    column-gap: 5rem; }
+    #emails .parrafoImagen p {
+      width: 40%; }
+
+/*Mis Redes*/
+#misRedes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3rem;
+  column-gap: 0;
+  background-color: #1d1d1d;
+  color: #d4d4d4;
+  text-align: center; }
+  #misRedes .imgRedes {
+    display: flex;
+    gap: 2.5rem; }
+    #misRedes .imgRedes img {
+      height: 4rem;
+      width: 4rem; }
+
+/*Mediaqueri Tablets*/
+@media (max-width: 1200px) {
+  .inicio header nav ul li a {
+    font-size: 1.5rem; }
+  .subtitulos {
+    margin-left: 0;
+    text-align: center; }
+  .subtitulosH3 {
+    margin-left: 0;
+    text-align: center; }
+  .volver {
+    padding-right: 0;
+    justify-content: center; }
+  /*Proyectos*/
+  #proyectos {
+    width: 100%; }
+    #proyectos .pantallas {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 3rem;
+      column-gap: 0; }
+      #proyectos .pantallas div h4 {
+        position: relative;
+        right: 3rem; }
+      #proyectos .pantallas .desktop img {
+        width: 20rem; }
+      #proyectos .pantallas .desktop h4 {
+        position: relative;
+        right: 0; }
+    #proyectos p {
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 4rem; }
+  /*Email*/
+  #emails .parrafoImagen p {
+    display: none;
+    font-size: 12px;
+    margin-left: 0;
+    text-align: center;
+    height: 20rem;
+    width: 100%; } }
+
+/*Mediaqueri Smartphone*/
+@media (max-width: 800px) {
+  .inicio header nav ul li a {
+    font-size: 1.2rem; }
+  /*Sobre Mi*/
+  #sobreMi {
+    gap: 3.5rem; }
+    #sobreMi p {
+      width: 100%; }
+    #sobreMi .listasEstudios {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 3.5rem;
+      column-gap: 0; }
+      #sobreMi .listasEstudios div h2 {
+        margin-left: 0;
+        text-align: center; }
+  /*Mis Redes*/
+  #misRedes .imgRedes .alertaEmail {
+    width: 5rem;
+    font-size: 5px; } }

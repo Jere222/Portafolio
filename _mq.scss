@@ -1,0 +1,127 @@
+/*Mediaqueri Tablets*/
+@media (max-width: 1200px) {
+
+    .inicio {
+        header {
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .subtitulos {
+        @include textoCentro;
+    }
+
+    .subtitulosH3 {
+        @include textoCentro;
+    }
+
+    .volver {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+
+
+    /*Proyectos*/
+    #proyectos {
+        width: 100%;
+
+        .pantallas {
+            @include FlexCenter(column, 3rem, 0);
+
+            div {
+                h4 {
+                    position: relative;
+                    right: 3rem;
+                }
+            }
+
+            .desktop {
+                img {
+                    width: 20rem
+                }
+
+                h4 {
+                    position: relative;
+                    right: 0;
+                }
+            }
+        }
+
+        p {
+            @include textoCentro;
+            margin-bottom: 4rem;
+        }
+    }
+
+    /*Email*/
+    #emails {
+        .parrafoImagen {
+
+            p {
+                display: none;
+                font-size: 12px;
+                @include textoCentro;
+                height: 20rem;
+                width: 100%;
+
+            }
+        }
+    }
+}
+
+/*Mediaqueri Smartphone*/
+@media (max-width: 800px) {
+
+    .inicio {
+        header {
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*Sobre Mi*/
+    #sobreMi {
+        gap: 3.5rem;
+
+        p {
+            width: 100%;
+        }
+
+        .listasEstudios {
+            @include FlexCenter(column, 3.5rem, 0);
+
+            div {
+                h2 {
+                    @include textoCentro;
+                }
+            }
+        }
+    }
+
+    /*Mis Redes*/
+    #misRedes {
+        .imgRedes {
+            .alertaEmail {
+                width: 5rem;
+                font-size: 5px;
+            }
+        }
+    }
+
+}

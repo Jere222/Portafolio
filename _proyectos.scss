@@ -1,0 +1,40 @@
+/*Proyectos*/
+#proyectos {
+    color: $colorTexto;
+    background-color: beige;
+    padding-top: 3rem;
+    @extend .container;
+
+    .pantallas {
+        display: flex;
+        column-gap: 2rem;
+        justify-content: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            .mobile {
+                height: 20rem;
+                width: 11rem;
+            }
+
+            .tablet {
+                height: 20rem;
+                width: 14rem;
+            }
+
+            .pc {
+                height: 15rem;
+                width: 24rem;
+
+
+            }
+
+            .botones {
+                padding-top: 2rem;
+                @include FlexCenter(row, 0, 2rem);
+            }
+        }
+    }
+}
